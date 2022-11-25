@@ -1,0 +1,196 @@
+body.body {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(117, 117, 117);
+    position: relative;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a.active {
+    background-color: rgba(68, 207, 189, 0.477);
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(68, 207, 189, 0.477);
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+}
+
+body.sign_in {
+    margin: 0;  
+    padding: 0;  
+    background-color:#555;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;
+    margin-block-start: 130px;
+    padding: 100px;  
+    padding-top: 50px;
+    background: rgba(68, 207, 189, 0.477);  
+    border-radius: 15px;
+}  
+
+h1.sign-in {  
+    text-align: center;  
+    color: #ffffff;  
+    padding: 20px;  
+} 
+
+label {  
+    color: rgb(255, 255, 255);  
+    font-size: 17px;  
+}
+
+#username {  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 20px;  
+    padding-left: 8px;
+} 
+
+#password {  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 20px;  
+    padding-left: 8px;   
+}  
+
+button.sign-in {
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0); 
+}
+
+span {  
+    color: white;  
+    font-size: 17px;  
+} 
+
+div button:hover {
+    background-color: rgb(167, 165, 165);
+    font-size: 17px;
+    color: #ffffff;
+}
+
+button.create-new {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(98, 98, 98);
+    font-family: sans-serif;
+    font-size: larger;
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+}
+
+button.finish {
+    Color: white;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(144, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.new-categories-product{
+    background-color: rgb(34, 34, 34);
+}
+
+table.products-categories-table {
+    border: 1px solid rgb(19, 19, 19);
+    border-collapse: collapse;
+    background-color: rgba(68, 207, 189, 0.477);
+    left: 100px;
+}
+
+th.products-categories-header {
+    border: 3px solid rgb(38, 38, 38);
+    min-width: 100px;
+    border-collapse: collapse;
+    background-color: rgb(143, 143, 143);
+    font-size: larger;
+    
+}
+
+td {
+    border: 3px solid rgb(46, 46, 46);
+    border-collapse: collapse;
+    background-color: rgba(68, 207, 189, 0.477);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+input {
+    margin-left: auto;
+}
+
+.new-category-product{
+    background-color: rgba(68, 207, 189, 0.477);
+}
+
+table.new-category-product {
+    border-collapse: collapse;
+    border: 2px solid rgb(84, 82, 82);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td.new-category-product {
+    color: black;
+    font-size: large;
+    border: 1px solid #afafaf;
+}
+
+body.new-category-product {
+    background-color: rgb(236, 236, 236);
+}
