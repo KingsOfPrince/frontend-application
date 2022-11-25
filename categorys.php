@@ -5,7 +5,7 @@
     <a href="products.php">Product</a>
     <a class="active" href="categorys.php">Category</a>
     <a class="sign-in" href="login.php">Login</a>
-</nav>w
+</nav>
 <h1>Categories</h1>
 <table class="products-categorys-table" id="categorys-table">
     <tr>
